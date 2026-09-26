@@ -1,0 +1,6 @@
+node_modules/
+.env
+database.json
+anarchian.db
+npm-debug.log*
+*.log

@@ -1,0 +1,22 @@
+
+> anarchian@1.0.0 start
+> node index.js
+
+◇ injected env (1) from .env
+🤖 Anarchian is online as anarchian#0740
+🔄 Registering slash commands...
+✅ Slash commands registered!
+COMMAND: balance GUILD: undefined GUILD ID: 1501448758309818508
+Error running /balance: TypeError: Cannot read properties of null (reading 'id')
+    at Client.<anonymous> (/workspaces/anarchian/index.js:805:39)
+    at Client.emit (node:events:514:28)
+    at InteractionCreateAction.handle (/workspaces/anarchian/node_modules/discord.js/src/client/actions/InteractionCreate.js:103:12)
+    at module.exports [as INTERACTION_CREATE] (/workspaces/anarchian/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/workspaces/anarchian/node_modules/discord.js/src/client/websocket/WebSocketManager.js:352:31)
+    at WebSocketManager.<anonymous> (/workspaces/anarchian/node_modules/discord.js/src/client/websocket/WebSocketManager.js:236:12)
+    at WebSocketManager.emit (/workspaces/anarchian/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:2504:31)
+    at WebSocketShard.<anonymous> (/workspaces/anarchian/node_modules/@discordjs/ws/dist/index.js:1190:51)
+    at WebSocketShard.emit (/workspaces/anarchian/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:2504:31)
+    at WebSocketShard.onMessage (/workspaces/anarchian/node_modules/@discordjs/ws/dist/index.js:1007:14)
+(node:27114) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
